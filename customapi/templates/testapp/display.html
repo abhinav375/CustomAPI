@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{% static "css/demo.css" %}" rel="stylesheet">
+    </head>
+    <body>
+    <h1 id='id1'>Welcome To Geolocation</h1>
+     <div class='container'>
+     
+    <h1>Your Ip address is::{{ip}}</h1>
+<h1> Your country name is::{{country}}</h1>
+<h1> Your state name is::{{state}}</h1>
+<h1>Your city name is::{{city}}</h1>
+<h1> Your zip code is::{{zip}}</h1>
+<h1> Current temp is::{{temp}}<sup>o</sup>C</h1>
+<h1> Current Weather_description is ::{{wetherdescription}}</h1>
+<h1>Current Wind_speed is::{{windspeed}}kmph</h1>
+<h1>Current wind_degree is::{{winddegree}}</h1>
+<h1>Current pressure is::{{pressure}}mb</h1>
+<h1>Current humidity is::{{humidity}}</h1>
+
+     </div>
+
+    </body>
+</html>
